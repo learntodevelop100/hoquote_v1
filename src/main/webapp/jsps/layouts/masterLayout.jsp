@@ -7,7 +7,6 @@
 <html>
 	<head>
 		<title><tiles:insertAttribute name="title" ignore="true"/></title>
-<<<<<<< HEAD
 		<link rel="stylesheet" href="stylesheet/navigationBar.css">
 	</head>
     <body>
@@ -18,17 +17,6 @@
 		<tiles:insertAttribute name="navigationBar" />
 		</div>
 		<div id="mainContent">
-=======
-	</head>
-    <body>
-    	<div id="banner">
-			<tiles:insertAttribute name="header" />
-		</div>
-		<div></div>
-		<tiles:insertAttribute name="navigationBar" />
-		<div></div>
-		<div id="page">
->>>>>>> branch 'master' of https://github.com/learntodevelop100/hoquote.git
 			<tiles:insertAttribute name="content" />
 		</div>
 		<div></div>

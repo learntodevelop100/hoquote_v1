@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div class="header">
 <img src="stylesheet/images/background-tcs.png">
 </div>
@@ -10,5 +9,3 @@
    <li class='last'><a href='#'><span>Quote Summary</span></a></li>
 </ul>
 </div>
-=======
->>>>>>> branch 'master' of https://github.com/learntodevelop100/hoquote.git
