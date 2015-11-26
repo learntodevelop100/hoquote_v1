@@ -6,6 +6,7 @@
 	<definition name="master.definition" template="/jsps/layouts/masterLayout.jsp">
 		<put-attribute name="header" value="/jsps/layouts/header.jsp" cascade="true" />
 		<put-attribute name="navigationBar" value="/jsps/layouts/navigationBar.jsp" cascade="true" />
+		<put-attribute name="sideBar" value="/jsps/layouts/sideBar.jsp" cascade="true" />
 		<put-attribute name="footer" value="/jsps/layouts/footer.jsp" cascade="true" />
 	</definition>
 	

@@ -7,19 +7,26 @@
 <html>
 	<head>
 		<title><tiles:insertAttribute name="title" ignore="true"/></title>
+		<link rel="stylesheet" href="stylesheet/customStyles.css">
 		<link rel="stylesheet" href="stylesheet/navigationBar.css">
+		<link rel="stylesheet" href="stylesheet/sideBar.css">
+		<link rel="stylesheet" href="stylesheet/bootstrap.css">
 	</head>
     <body>
-    	<div id="banner">
+    	<div id="banner_wrapper">
 			<tiles:insertAttribute name="header" />
 		</div>
-		<div id="navigationBar">
-		<tiles:insertAttribute name="navigationBar" />
+		<div id="navigationBar_wrapper">
+			<tiles:insertAttribute name="navigationBar" />
 		</div>
-		<div id="mainContent">
-			<tiles:insertAttribute name="content" />
+		<div id="mainContent_wrapper">
+			<div id="pageContent-wrapper">
+				<tiles:insertAttribute name="content" />
+			</div>
+			<div id="sideBar_wrapper">
+				<tiles:insertAttribute name="sideBar" />
+			</div>
 		</div>
-		<div></div>
 		<div id="footer_wrapper">
 			<tiles:insertAttribute name="footer" />
 		</div>

@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Oxygen+Mono);
 /* Starter CSS for Menu */
+
 #navigationHeader {
   padding: 0;
   margin: 0;
@@ -65,11 +66,13 @@
 #navigationHeader {
   background: #333333;
   border-bottom: 4px solid #1b9bff;
-  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
   font-size: 12px;
 }
 #navigationHeader > ul {
   *display: inline-block;
+}
+#navigationHeader ul {
+  text-transform: uppercase;
 }
 #navigationHeader:after,
 #navigationHeader ul:after {
@@ -77,8 +80,8 @@
   display: block;
   clear: both;
 }
-#navigationHeader ul {
-  text-transform: uppercase;
+#navigationHeader ul li {
+  float: right;
 }
 #navigationHeader ul ul {
   border-top: 4px solid #1b9bff;
@@ -127,7 +130,6 @@
   background-clip: padding-box;
 }
 #navigationHeader ul ul li.has-sub > a:after {
-  content: '+';
   position: absolute;
   top: 50%;
   right: 15px;
@@ -139,8 +141,15 @@
   color: #ffffff;
 }
 #navigationHeader ul li.has-sub > a:after {
-  content: '+';
   margin-left: 5px;
+}
+#navigationHeader ul li.has-sub {
+  width: 19.5%;
+  float: left;
+}
+#navigationHeader ul li.has-sub a {
+    font-size: 16px;
+    font-weight: bold;
 }
 #navigationHeader ul li.last ul {
   left: auto;
@@ -155,6 +164,11 @@
   color: #CBCBCB;
   padding: 0 20px;
 }
+#navigationHeader > ul > li > a {
+  line-height: 48px;
+  font-size: 12px;
+}
+
 #navigationHeader > ul > li > a {
   line-height: 48px;
   font-size: 12px;
