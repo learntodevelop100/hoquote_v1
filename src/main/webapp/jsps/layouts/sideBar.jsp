@@ -1,18 +1,15 @@
-<!-- Sidebar -->
-<!-- <div id="sidebar-wrapper">
-	<ul class="sidebar-nav">
-		<li class="sidebar-brand"><a href="#"> Start Bootstrap </a></li>
-		<li><a href="#">Personal Information</a></li>
-		<li><a href="#">Policy Information</a></li>
-		<li><a href="#">Quote Options</a></li>
-		<li><a href="#">Quote Summary</a></li>
-	</ul>
-</div> -->
-
 <div id="contactModule">
-
+	<h4 class="moduleHeading">Contact Your Agent</h4>
+	<p>
+		<span>(630) 278-9423</span> 
+		<br> Mon.-Fri. 7:00 AM - 1:00 AM EST<br> 
+		Sat. 8:00 AM - 10:30 PM EST<br> 
+		Sun. 8:00 AM - 10:30 PM EST
+	</p>
 </div>
-
 <div id="quoteModule">
-
+	<h4 class="moduleHeading">Quote Details</h4>
+	<p> 
+		Quote # 127894646
+	</p>
 </div>
